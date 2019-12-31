@@ -189,6 +189,14 @@ class CalendarDay extends Component {
             borderWidth: this.props.daySelectionAnimation.borderWidth
           });
           break;
+        case "mix":
+          dateViewStyle.push({
+            borderColor: this.props.daySelectionAnimation.borderHighlightColor,
+            borderWidth: this.props.daySelectionAnimation.borderWidth,
+            backgroundColor: this.props.daySelectionAnimation.highlightColor,
+            borderRadius: this.props.daySelectionAnimation.borderRadius,
+          });
+          break;
         default:
           // No animation styling by default
           break;
