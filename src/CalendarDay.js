@@ -195,6 +195,11 @@ class CalendarDay extends Component {
             borderWidth: this.props.daySelectionAnimation.borderWidth,
             backgroundColor: this.props.daySelectionAnimation.highlightColor,
             borderRadius: this.props.daySelectionAnimation.borderRadius,
+            padding: this.props.padding,
+            paddingTop: this.props.paddingTop,
+            paddingBottom: this.props.paddingBottom,
+            paddingLeft: this.props.paddingLeft,
+            paddingRight: this.props.paddingRight,
           });
           break;
         default:
